@@ -1,2 +1,2 @@
 # React-Native-Boiler-Code
-React Native Boiler Code including Redux, Tab Navigator, Stack Navigators, Toast and Multi Language support throughout the application.
+React Native Boiler Code with Basic Stack Navigators, Tab Navigators with Auth Using Context Api and react-query :)
