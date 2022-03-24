@@ -1,21 +1,22 @@
-let Config = {
-    PERSIST_SECRET_KEY: "ReactNativeBoilerPlate",
-    ENVIRONMENT: "DEVELOPMENT",
+var Config = {
+    ENVIRONMENT: "LOCAL",
     ENVIRONMENTS: {
         LOCAL: {
-            API_URL: "http://localhost:3000", // Your backend API url goes here.
+            API_URL: "https://########",
+            GOOGLE_GEOCODING_API_KEY: "AIzaSyB6VeOPCxpQ9oGUNOSIRMlEuNhXrtS9YAM"
         },
         DEVELOPMENT: {
-            API_URL: "http://localhost:3000",
+            GOOGLE_GEOCODING_API_KEY: "AIzaSyB6VeOPCxpQ9oGUNOSIRMlEuNhXrtS9YAM"
+        },
+        STAGING: {
+            GOOGLE_GEOCODING_API_KEY: "AIzaSyB6VeOPCxpQ9oGUNOSIRMlEuNhXrtS9YAM"
         },
         PRODUCTION: {
-            API_URL: "http://localhost:3000",
+            GOOGLE_GEOCODING_API_KEY: "AIzaSyB6VeOPCxpQ9oGUNOSIRMlEuNhXrtS9YAM"
         }
     }
 };
-
 Config.env = () => {
     return Config.ENVIRONMENTS[Config.ENVIRONMENT];
 };
-
 export default Config;
