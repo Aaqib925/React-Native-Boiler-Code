@@ -3,16 +3,16 @@ var Config = {
     ENVIRONMENTS: {
         LOCAL: {
             API_URL: "https://########",
-            GOOGLE_GEOCODING_API_KEY: "AIzaSyB6VeOPCxpQ9oGUNOSIRMlEuNhXrtS9YAM"
+            GOOGLE_GEOCODING_API_KEY: ""
         },
         DEVELOPMENT: {
-            GOOGLE_GEOCODING_API_KEY: "AIzaSyB6VeOPCxpQ9oGUNOSIRMlEuNhXrtS9YAM"
+            GOOGLE_GEOCODING_API_KEY: ""
         },
         STAGING: {
-            GOOGLE_GEOCODING_API_KEY: "AIzaSyB6VeOPCxpQ9oGUNOSIRMlEuNhXrtS9YAM"
+            GOOGLE_GEOCODING_API_KEY: ""
         },
         PRODUCTION: {
-            GOOGLE_GEOCODING_API_KEY: "AIzaSyB6VeOPCxpQ9oGUNOSIRMlEuNhXrtS9YAM"
+            GOOGLE_GEOCODING_API_KEY: ""
         }
     }
 };
